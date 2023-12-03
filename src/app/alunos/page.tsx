@@ -10,7 +10,7 @@ export default function Alunos() {
         bg-gradient-to-bl from-gray-800 via-gray-400 to-gray-800
         text-gray-900`}>
             <Layout
-                titulo="Cadastro de Alunos">
+                titulo="Alunos Cadastrados">
                 <Tabela alunos={alunos} />
             </Layout>
         </div>
