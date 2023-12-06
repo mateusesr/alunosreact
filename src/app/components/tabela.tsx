@@ -10,6 +10,7 @@ export default function Tabela(props: TabelaProps) {
                 <th className="text-left p-5">Nome</th>
                 <th className="text-left p-5">E-mail</th>
                 <th className="text-left p-5">Disciplinas</th>
+                <th className="text-left p-5">Ações</th>
             </tr>)
     }
     function renderDados() {
@@ -19,6 +20,7 @@ export default function Tabela(props: TabelaProps) {
                 <td className="text-left p-5">{aluno.nome}</td>
                 <td className="text-left p-5">{aluno.email}</td>
                 <td className="text-left p-5">{aluno.disciplinas}</td>
+                <td className="text-left p-5">{ "X" }</td>
             </tr>)
         })
     } return (
